@@ -78,8 +78,6 @@ public class Tutorial extends JavaPlugin
 		
 		version = version.substring(version.lastIndexOf('.') + 1);
 		
-		System.out.println(version);
-		
 		switch(version)
 		{
 			case "v1_7_R1":

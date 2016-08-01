@@ -1,6 +1,7 @@
 package net.shortninja.tutorial.gui;
 
 import net.shortninja.tutorial.gui.listener.InventoryClick;
+import net.shortninja.tutorial.gui.listener.InventoryClose;
 import net.shortninja.tutorial.gui.listener.PlayerJoin;
 import net.shortninja.tutorial.gui.listener.PlayerQuit;
 import net.shortninja.tutorial.gui.player.User;
@@ -24,6 +25,7 @@ public class Tutorial extends JavaPlugin
 		plugin = this;
 		userManager = new UserManager();
 		new InventoryClick();
+		new InventoryClose();
 		new PlayerJoin();
 		new PlayerQuit();
 		load();
